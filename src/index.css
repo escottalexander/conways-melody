@@ -1,5 +1,6 @@
 body {
-  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png) 
+  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/gray_sand.png); 
+
 }
   
 .box {
@@ -12,11 +13,11 @@ body {
   }
 
 .off {
-  background-color: lightgray;
+  background-color: white;
 }
 
 .on {
-  background-color: green;
+  background-color: #0B9BC8;
 }
   
 .box:hover { 
@@ -37,7 +38,7 @@ body {
   margin-top: 20px;
 }
   
-h1, h2, h3, h4 {
+h1, h2, h3, h4, footer {
   color: white;
   margin: auto;
   text-align: center;
