@@ -8,6 +8,8 @@ This project is geared towards answering that question!
 
 It utilizes the Web Audio API to generate sounds randomly as life is generated. You will note that when "life" is bustling, the music is booming. When it has slowed down, so will the music.
 
+A live version can be found hosted on [SlayApps.com](https://slayapps.com/web-apps/conways/)
+
 ## Conway's Melody features:
 - Adjustable grid structure
 - Four wave patterns to switch between
