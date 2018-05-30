@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { ButtonToolbar, MenuItem, DropdownButton } from 'react-bootstrap';
 
-//Create auido context
+//Create audio context
 var AudioContext = window.AudioContext || window.webkitAudioContext;
 var context = new AudioContext();
 var o=null
 var g=null
 
-
+//
 class Box extends React.Component {
 	selectBox = () => {
 		this.props.selectBox(this.props.row, this.props.col)
